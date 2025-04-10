@@ -1,8 +1,46 @@
-# Welcome to your Expo app 👋
+# PeakFit
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+PeakFit is a fitness-focused mobile application designed to help people achieve their fitness goals through AI-driven insights, personalized training plans, and progress tracking.
 
-## Get started
+## Features
+
+### Free Version
+- Workout Tracking: Log workouts and track progress
+- Basic AI-Powered Fitness Plans: Pre-set workout plans for different fitness levels
+- Food & Nutrition Tracking: Log meals manually and track calories
+- Daily Reminders: Push notifications for workouts and hydration
+- Social Features: Join fitness challenges and participate in the leaderboard
+- Wearable Device Sync: Connect with basic fitness trackers
+
+### Pro Version (Premium Tier 1)
+- Everything in Free, PLUS:
+- AI-Generated Custom Workouts: Workouts adapted to user goals and fitness level
+- Adaptive AI Workouts: AI modifies workouts based on progress and feedback
+- AI Meal Plans: Personalized meal planning based on macros and dietary preferences
+- And more...
+
+### Elite Version (Premium Tier 2)
+- Everything in Pro, PLUS:
+- On-the-Fly Meal Swaps: AI suggests alternative meals based on availability
+- Real-Time AI-Powered Insights: Live feedback on workouts and nutrition
+- Food Scanning: Barcode and image recognition for automated food tracking
+- And more...
+
+## Technology Stack
+
+- Frontend: React Native with Expo
+- Backend: Firebase (Authentication, Firestore, Storage)
+- AI & Analytics: Python-based AI models for workout optimization
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+- Expo CLI
+
+### Installation
 
 1. Install dependencies
 
@@ -13,38 +51,20 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Open the app on your device using the Expo Go app or run it in a simulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- `/app` - Expo Router screens and navigation
+- `/assets` - Images, fonts, and other static assets
+- `/components` - Reusable UI components
+- `/constants` - Theme, colors, and other constants
+- `/screens` - Screen components
+- `/services` - API and business logic
 
-## Get a fresh project
+## Development Roadmap
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+See the [PeakFit_Development_Plan.md](./PeakFit_Development_Plan.md) file for the detailed development roadmap.
